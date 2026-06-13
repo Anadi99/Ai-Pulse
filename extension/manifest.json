@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "AI Usage Intelligence",
+  "version": "1.0.0",
+  "description": "Track your AI usage across ChatGPT, Claude, Gemini, Perplexity and Grok.",
+  "permissions": ["storage", "tabs", "idle"],
+  "host_permissions": [
+    "https://chat.openai.com/*",
+    "https://chatgpt.com/*",
+    "https://claude.ai/*",
+    "https://gemini.google.com/*",
+    "https://www.perplexity.ai/*",
+    "https://perplexity.ai/*",
+    "https://grok.com/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "AI Usage Intelligence" }
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>AI Usage Intelligence</title>
+<style>
+  body { width: 300px; margin: 0; font-family: -apple-system, Inter, sans-serif; background: #0A0A0A; color: #fff; padding: 16px; }
+  h1 { font-size: 14px; margin: 0 0 12px; }
+  label { font-size: 11px; color: #888; display:block; margin-top:10px; }
+  input { width: 100%; box-sizing: border-box; padding: 8px; background:#161616; color:#fff; border:1px solid #2a2a2a; border-radius:6px; font-size:12px; }
+  button { width:100%; margin-top:12px; padding:8px; background:linear-gradient(135deg,#7C3AED,#A78BFA); color:#fff; border:0; border-radius:6px; font-weight:600; cursor:pointer; }
+  .status { margin-top: 10px; font-size:11px; color:#10B981; }
+  .err { color:#EF4444; }
+  a { color:#7C3AED; font-size:11px; }
+</style></head>
+<body>
+  <h1>AI Usage Intelligence</h1>
+  <label>API URL</label>
+  <input id="url" placeholder="https://your-app.lovable.app" />
+  <label>API Token</label>
+  <input id="token" placeholder="aui_…" />
+  <button id="save">Save</button>
+  <div id="status" class="status"></div>
+  <p style="margin-top:14px;"><a id="dash" href="#" target="_blank">Open dashboard →</a></p>
+  <script src="popup.js"></script>
+</body></html>
