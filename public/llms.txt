@@ -1,0 +1,7 @@
+# AI Usage Intelligence
+
+> Track, analyze, and optimize how you use AI tools like ChatGPT, Claude, Gemini, Perplexity and Grok.
+
+## Pages
+- [Home](/): Landing page and product overview
+- [Sign in](/auth): Sign in or create an account
