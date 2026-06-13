@@ -91,7 +91,7 @@ export const getOverview = createServerFn({ method: "GET" })
     const activeWeight = Math.min(30, (weekSec / 3600) * 3);
     const consistency = Math.min(20, streak * 3);
     const focusSessions = Math.min(20, s.filter(x => x.duration_seconds > 600 && new Date(x.started_at) >= weekAgo).length * 2);
-    const codeLearn = Math.min(15, s.filter(x => ["Coding","Learning"].includes(x.category) && new Date(x.started_at) >= weekAgo).length * 2);
+    const codeLearn = Math.min(15, s.filter(x => x.category && ["Coding","Learning"].includes(x.category) && new Date(x.started_at) >= weekAgo).length * 2);
     const goal = Math.min(15, Math.round((weekSec / (10 * 3600)) * 15));
     const score = Math.round(activeWeight + consistency + focusSessions + codeLearn + goal);
     const tier = score >= 91 ? "Elite" : score >= 71 ? "High" : score >= 41 ? "Average" : "Low";
