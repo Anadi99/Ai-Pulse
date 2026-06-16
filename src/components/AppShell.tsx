@@ -1,5 +1,5 @@
 import { Link, useRouterState, useNavigate } from "@tanstack/react-router";
-import { BarChart3, Brain, Chrome, FileText, LogOut, Settings2 } from "lucide-react";
+import { BarChart3, Brain, Chrome, FileText, Github, LogOut } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
