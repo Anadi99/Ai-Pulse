@@ -410,8 +410,8 @@ function Landing() {
                 The Google Analytics for AI usage. Understand, measure & optimize how you work with AI.
               </p>
               <div className="mt-5 flex gap-3 text-muted-foreground">
+                <a href="https://github.com/Anadi99" target="_blank" rel="noreferrer noopener" aria-label="GitHub" className="rounded-md border border-border p-2 transition hover:border-primary/50 hover:text-foreground"><Github className="h-4 w-4" /></a>
                 <a href="#" aria-label="Twitter" className="rounded-md border border-border p-2 transition hover:border-primary/50 hover:text-foreground"><Twitter className="h-4 w-4" /></a>
-                <a href="#" aria-label="GitHub" className="rounded-md border border-border p-2 transition hover:border-primary/50 hover:text-foreground"><Github className="h-4 w-4" /></a>
                 <a href="#" aria-label="LinkedIn" className="rounded-md border border-border p-2 transition hover:border-primary/50 hover:text-foreground"><Linkedin className="h-4 w-4" /></a>
               </div>
             </div>
