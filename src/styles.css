@@ -107,6 +107,16 @@
     background-clip: text;
     color: transparent;
   }
+  .font-display {
+    font-family: "Instrument Serif", "Times New Roman", serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+  .font-display-italic {
+    font-family: "Instrument Serif", serif;
+    font-style: italic;
+    font-weight: 400;
+  }
   .bg-hero { background-image: var(--gradient-hero); }
   .bg-card-gradient { background-image: var(--gradient-card); }
   .shadow-glow { box-shadow: var(--shadow-glow); }
