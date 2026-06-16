@@ -433,8 +433,13 @@ function Landing() {
             ]} />
           </div>
           <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
-            <p>© {new Date().getFullYear()} AI Usage Intelligence. Built for the AI-native generation.</p>
-            <p className="flex items-center gap-2"><Shield className="h-3 w-3" /> SOC2-ready architecture · RLS enforced</p>
+            <p>© {new Date().getFullYear()} AI Usage Intelligence. All rights reserved.</p>
+            <p className="flex items-center gap-1.5">
+              Crafted by
+              <a href="https://github.com/Anadi99" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-1 font-medium text-foreground underline-offset-4 hover:underline">
+                <Github className="h-3 w-3" /> Anadi
+              </a>
+            </p>
           </div>
         </div>
       </footer>
