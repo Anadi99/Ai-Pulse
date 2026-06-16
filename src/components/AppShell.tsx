@@ -49,7 +49,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             rel="noreferrer noopener"
             className="mt-2 flex items-center justify-center gap-1.5 rounded-md px-3 py-2 text-[11px] text-muted-foreground transition hover:text-foreground"
           >
-            <Github className="h-3 w-3" /> Crafted by Anadi
+            <Github className="h-3 w-3" /> Made by Anadi99
           </a>
         </div>
       </aside>

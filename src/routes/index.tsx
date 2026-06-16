@@ -226,7 +226,7 @@ function Landing() {
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-primary">AI Insights Assistant</p>
             <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl">Ask your data.<br /><span className="text-gradient">Get answers.</span></h2>
-            <p className="mt-4 text-muted-foreground">An assistant that knows your actual AI habits. Powered by Lovable AI, grounded in your tracked sessions.</p>
+            <p className="mt-4 text-muted-foreground">An assistant that knows your actual AI habits. Powered by AI, grounded in your tracked sessions.</p>
             <ul className="mt-6 space-y-3 text-sm">
               {["How productive was I this week?", "What platform do I use most?", "Show my coding activity.", "Which day was most productive?"].map((q) => (
                 <li key={q} className="flex items-center gap-3"><MessageSquare className="h-4 w-4 text-primary" />{q}</li>
@@ -434,11 +434,11 @@ function Landing() {
             ]} />
           </div>
           <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
-            <p>© {new Date().getFullYear()} AI Usage Intelligence. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} AI Usage Intelligence. All rights reserved.</p>
             <p className="flex items-center gap-1.5">
-              Crafted by
+              Made by
               <a href="https://github.com/Anadi99" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-1 font-medium text-foreground underline-offset-4 hover:underline">
-                <Github className="h-3 w-3" /> Anadi
+                <Github className="h-3 w-3" /> Anadi99
               </a>
             </p>
           </div>
