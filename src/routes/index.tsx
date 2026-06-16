@@ -122,12 +122,13 @@ function Landing() {
               <Sparkles className="h-3 w-3 text-primary" />
               Now tracking 5 AI platforms · Chrome extension included
             </div>
-            <h1 className="text-5xl font-extrabold leading-[1.05] tracking-tight md:text-7xl">
-              The <span className="text-gradient">Google Analytics</span>
-              <br />for your AI usage.
+            <h1 className="font-display text-6xl leading-[1.0] tracking-tight md:text-[88px]">
+              Your AI usage,
+              <br />
+              <span className="font-display-italic text-gradient">finally measured.</span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-              Understand, measure, and optimize how you use ChatGPT, Claude, Gemini, Perplexity, and Grok. Productivity scores, heatmaps, and AI-generated insights — built for builders.
+              A quiet companion for people who live inside ChatGPT, Claude, Gemini, Perplexity and Grok. Real focus time, honest productivity scores, and insights that actually read your week back to you.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <Link to="/auth">
