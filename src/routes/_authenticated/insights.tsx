@@ -48,7 +48,7 @@ function Insights() {
         <Brain className="h-7 w-7 text-primary" />
         <div>
           <h1 className="text-3xl font-bold tracking-tight">AI Insights</h1>
-          <p className="text-sm text-muted-foreground">Ask your data — powered by Lovable AI</p>
+          <p className="text-sm text-muted-foreground">Ask your data — powered by AI</p>
         </div>
       </div>
 
