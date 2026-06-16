@@ -122,12 +122,13 @@ function Landing() {
               <Sparkles className="h-3 w-3 text-primary" />
               Now tracking 5 AI platforms · Chrome extension included
             </div>
-            <h1 className="text-5xl font-extrabold leading-[1.05] tracking-tight md:text-7xl">
-              The <span className="text-gradient">Google Analytics</span>
-              <br />for your AI usage.
+            <h1 className="font-display text-6xl leading-[1.0] tracking-tight md:text-[88px]">
+              Your AI usage,
+              <br />
+              <span className="font-display-italic text-gradient">finally measured.</span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-              Understand, measure, and optimize how you use ChatGPT, Claude, Gemini, Perplexity, and Grok. Productivity scores, heatmaps, and AI-generated insights — built for builders.
+              A quiet companion for people who live inside ChatGPT, Claude, Gemini, Perplexity and Grok. Real focus time, honest productivity scores, and insights that actually read your week back to you.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <Link to="/auth">
@@ -182,7 +183,7 @@ function Landing() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-xs uppercase tracking-[0.2em] text-primary">How it works</p>
-            <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">Three steps to AI clarity.</h2>
+            <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl">Three steps to AI clarity.</h2>
             <p className="mt-4 text-muted-foreground">No configuration. No agents to babysit. Install, work, learn.</p>
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-3">
@@ -203,7 +204,7 @@ function Landing() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-xs uppercase tracking-[0.2em] text-primary">Product</p>
-            <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">Built for the post-AI workflow.</h2>
+            <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl">Built for the post-AI workflow.</h2>
             <p className="mt-4 text-muted-foreground">Stop guessing how AI affects your work. Start measuring it like a metric that matters.</p>
           </div>
           <div className="mt-14 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -224,7 +225,7 @@ function Landing() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 md:grid-cols-2">
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-primary">AI Insights Assistant</p>
-            <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">Ask your data.<br /><span className="text-gradient">Get answers.</span></h2>
+            <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl">Ask your data.<br /><span className="text-gradient">Get answers.</span></h2>
             <p className="mt-4 text-muted-foreground">An assistant that knows your actual AI habits. Powered by Lovable AI, grounded in your tracked sessions.</p>
             <ul className="mt-6 space-y-3 text-sm">
               {["How productive was I this week?", "What platform do I use most?", "Show my coding activity.", "Which day was most productive?"].map((q) => (
@@ -255,7 +256,7 @@ function Landing() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-xs uppercase tracking-[0.2em] text-primary">Who it's for</p>
-            <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">Built for AI-native builders.</h2>
+            <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl">Built for AI-native builders.</h2>
           </div>
           <div className="mt-12 grid gap-4 md:grid-cols-3">
             <PersonaCard icon={Code2} title="Engineers" desc="Measure how much AI actually contributes to shipped code. Optimize your pair-programming loop." />
@@ -270,7 +271,7 @@ function Landing() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-xs uppercase tracking-[0.2em] text-primary">Loved by early users</p>
-            <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">A new metric for modern work.</h2>
+            <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl">A new metric for modern work.</h2>
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {testimonials.map((t) => (
@@ -304,7 +305,7 @@ function Landing() {
             <div className="relative grid items-center gap-10 md:grid-cols-2">
               <div>
                 <Chrome className="h-10 w-10 text-primary" />
-                <h2 className="mt-4 text-4xl font-bold tracking-tight md:text-5xl">One install. <span className="text-gradient">Total visibility.</span></h2>
+                <h2 className="mt-4 font-display text-5xl tracking-tight md:text-6xl">One install. <span className="text-gradient">Total visibility.</span></h2>
                 <p className="mt-4 text-muted-foreground">Our Chrome extension runs quietly in the background — capturing focus time and session length across every supported AI tool. No prompt content is ever read or transmitted.</p>
                 <ul className="mt-5 grid gap-2 text-sm">
                   {["Works in Chrome, Edge, Brave & Arc", "Idle detection so breaks don't skew data", "Local-first; sync only what you choose"].map((p) => (
@@ -344,7 +345,7 @@ function Landing() {
         <div className="mx-auto max-w-5xl px-6">
           <div className="text-center">
             <p className="text-xs uppercase tracking-[0.2em] text-primary">Pricing</p>
-            <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">Simple, honest pricing.</h2>
+            <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl">Simple, honest pricing.</h2>
             <p className="mt-3 text-muted-foreground">Free while in beta. No card. No tricks.</p>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2">
@@ -371,7 +372,7 @@ function Landing() {
         <div className="mx-auto max-w-3xl px-6">
           <div className="text-center">
             <p className="text-xs uppercase tracking-[0.2em] text-primary">FAQ</p>
-            <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">Questions, answered.</h2>
+            <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl">Questions, answered.</h2>
           </div>
           <Accordion type="single" collapsible className="mt-10">
             {faqs.map((f, i) => (
@@ -387,7 +388,7 @@ function Landing() {
       {/* CTA */}
       <section className="border-t border-border py-24">
         <div className="mx-auto max-w-4xl px-6 text-center">
-          <h2 className="text-4xl font-bold tracking-tight md:text-6xl">Start measuring<br />what you've been guessing.</h2>
+          <h2 className="font-display text-5xl tracking-tight md:text-7xl">Start measuring<br />what you've been guessing.</h2>
           <p className="mx-auto mt-5 max-w-xl text-muted-foreground">Free during beta. Two minutes to set up. Your AI workflow, finally visible.</p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Link to="/auth">
@@ -410,8 +411,8 @@ function Landing() {
                 The Google Analytics for AI usage. Understand, measure & optimize how you work with AI.
               </p>
               <div className="mt-5 flex gap-3 text-muted-foreground">
+                <a href="https://github.com/Anadi99" target="_blank" rel="noreferrer noopener" aria-label="GitHub" className="rounded-md border border-border p-2 transition hover:border-primary/50 hover:text-foreground"><Github className="h-4 w-4" /></a>
                 <a href="#" aria-label="Twitter" className="rounded-md border border-border p-2 transition hover:border-primary/50 hover:text-foreground"><Twitter className="h-4 w-4" /></a>
-                <a href="#" aria-label="GitHub" className="rounded-md border border-border p-2 transition hover:border-primary/50 hover:text-foreground"><Github className="h-4 w-4" /></a>
                 <a href="#" aria-label="LinkedIn" className="rounded-md border border-border p-2 transition hover:border-primary/50 hover:text-foreground"><Linkedin className="h-4 w-4" /></a>
               </div>
             </div>
@@ -433,8 +434,13 @@ function Landing() {
             ]} />
           </div>
           <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
-            <p>© {new Date().getFullYear()} AI Usage Intelligence. Built for the AI-native generation.</p>
-            <p className="flex items-center gap-2"><Shield className="h-3 w-3" /> SOC2-ready architecture · RLS enforced</p>
+            <p>© {new Date().getFullYear()} AI Usage Intelligence. All rights reserved.</p>
+            <p className="flex items-center gap-1.5">
+              Crafted by
+              <a href="https://github.com/Anadi99" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-1 font-medium text-foreground underline-offset-4 hover:underline">
+                <Github className="h-3 w-3" /> Anadi
+              </a>
+            </p>
           </div>
         </div>
       </footer>

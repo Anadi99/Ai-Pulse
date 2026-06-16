@@ -1,5 +1,5 @@
 import { Link, useRouterState, useNavigate } from "@tanstack/react-router";
-import { BarChart3, Brain, Chrome, FileText, LogOut, Settings2 } from "lucide-react";
+import { BarChart3, Brain, Chrome, FileText, Github, LogOut } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
@@ -43,6 +43,14 @@ export function AppShell({ children }: { children: ReactNode }) {
           <Button onClick={signOut} variant="ghost" size="sm" className="w-full justify-start text-muted-foreground">
             <LogOut className="mr-2 h-4 w-4" /> Sign out
           </Button>
+          <a
+            href="https://github.com/Anadi99"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="mt-2 flex items-center justify-center gap-1.5 rounded-md px-3 py-2 text-[11px] text-muted-foreground transition hover:text-foreground"
+          >
+            <Github className="h-3 w-3" /> Crafted by Anadi
+          </a>
         </div>
       </aside>
       <main className="flex-1 overflow-x-hidden">
