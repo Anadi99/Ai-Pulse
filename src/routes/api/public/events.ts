@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { z } from "zod";
 
-const Schema = z.object({
+export const Schema = z.object({
   platform: z.string().min(1).max(50),
   category: z.string().max(50).optional().nullable(),
   duration_seconds: z.number().int().min(0).max(86400),
